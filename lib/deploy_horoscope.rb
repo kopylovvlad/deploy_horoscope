@@ -3,7 +3,6 @@
 require "nokogiri"
 require "net/http"
 require "uri"
-require "pry"
 require "date"
 
 require_relative "deploy_horoscope/client"
