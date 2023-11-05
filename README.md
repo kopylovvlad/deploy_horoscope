@@ -2,6 +2,8 @@
 
 When it's best to deploy to production? You can see the dates in https://deployhoroscope.ru/ The information is addressed to those who are planning to deploy to production in the near future. Especially for the resource an astrologer has calculated the most favorable calendar dates for this procedure for all zodiac signs.
 
+[Rubygems](https://rubygems.org/gems/deploy_horoscope)
+
 ## Installation
 
 ```
