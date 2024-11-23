@@ -39,7 +39,7 @@ module DeployHoroscope
       data = []
       doc.css("tbody tr").each do |row|
         cells = row.css("td")
-        sign_ru = cells[0].text.downcase.strip
+        sign_ru = cells[0].text.downcase.strip.split(' ').first
         data << {
           sign_ru: sign_ru,
           sign: ::DeployHoroscope::SIGNS[sign_ru],
